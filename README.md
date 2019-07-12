@@ -47,6 +47,6 @@ La idea es tener una lista de imagenes que vayan cambiando en forma random segun
 
     void mousePressed() {
       //imageI = images[2];
-      //cada vez que apriete boton, salta a la siguiente imagen de la lista
+      //cada vez que apriete boton, salta a una imagen de la lista
       imageI = images[int(random(images.length))];
     }
